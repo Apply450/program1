@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BrAin Up</string>
+    <string name="back">Назад</string>
+    <string name="textcontinue">Продолжить</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+</resources>

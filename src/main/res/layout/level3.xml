@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level3">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/prew"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="53dp"
+        android:text="TextView"
+        android:textColor="@color/black60"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Rezolt"
+        app:layout_constraintEnd_toStartOf="@+id/plus1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="53dp"
+        android:textColor="@color/black60"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Rezolt"
+        app:layout_constraintEnd_toStartOf="@+id/number3"
+        app:layout_constraintStart_toEndOf="@+id/plus1" />
+
+    <TextView
+        android:id="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="524dp"
+        android:textColor="@color/black60"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/number3"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="52dp"
+        android:textColor="@color/black60"
+        android:text="+"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/Rezolt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="524dp"
+        android:textColor="@color/black60"
+        android:text="="
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/number4"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/Cheack4"
+        android:layout_width="wrap_content"
+        android:background="@drawable/style_btn_black60"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="337dp"
+        android:textColor="@color/black60"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/black60"
+        android:background="@drawable/style_btn_black60"
+        android:layout_marginEnd="40dp"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/point1"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points" />
+
+        <TextView
+            android:id="@+id/point2"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/point3"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points" />
+
+        <TextView
+            android:id="@+id/point4"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/point5"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points" />
+
+        <TextView
+            android:id="@+id/point6"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/point7"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points" />
+
+        <TextView
+            android:id="@+id/point8"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/point9"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points" />
+
+        <TextView
+            android:id="@+id/point10"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_points"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Rezolt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="@color/black60"
+        app:layout_constraintBottom_toTopOf="@+id/Cheack4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
